@@ -153,11 +153,11 @@ msg -bar2 && msg -verm "Key Failed! " && msg -bar2
 [[ -e $HOME/lista-arq ]] && rm $HOME/lista-arq
 exit 1
 }
-Key="qra-atsilK7979@?6f?8a6b7?K8888:00?+6@@+@@?+08"
+Key="qra-atsilK?65@%6087%?66d5K8888:%6+95+@@?+08"
 REQUEST=$(echo $SCPresq|$SUB_DOM)
 IP="104.238.135.147" && echo "$IP" > /usr/bin/vendor_code
 cd $HOME
-msg -ne "Key: qra-atsilK7979@?6f?8a6b7?K8888:00?+6@@+@@?+08"
+msg -ne "Key: qra-atsilK?65@%6087%?66d5K8888:%6+95+@@?+08"
 wget -O $HOME/lista-arq ${REQUEST}/lista-arq > /dev/null 2>&1 && echo -e "\033[1;32m Verified" || {
    echo -e "\033[1;32m Verified"
    invalid_key
