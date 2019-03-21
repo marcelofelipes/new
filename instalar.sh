@@ -153,7 +153,7 @@ msg -bar2 && msg -verm "Key Failed! " && msg -bar2
 [[ -e $HOME/lista-arq ]] && rm $HOME/lista-arq
 exit 1
 }
-Key= "qra-atsilK8080?aeb8%?ffdbK8888:90@+40?+@6+80@"
+Key= " qra-atsilK8080?aeb8%?ffdbK8888:90@+40?+@6+80@ "
 REQUEST=$(echo $SCPresq|$SUB_DOM)
 IP="144.202.76.255" && echo "$IP" > /usr/bin/vendor_code
 cd $HOME
